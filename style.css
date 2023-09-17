@@ -1,0 +1,67 @@
+body
+{
+    
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+font-size: large;
+}
+
+.container
+{
+    background-color: rgb(76, 185, 90);
+    max-width: 500 px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,2);
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+label
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+#password
+{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(236, 235, 217);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7)
+}
+
+#generate
+{
+    background-color: rgb(110, 95, 194);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#generatepassword:hover
+{
+    background-color: rgb(72, 72, 216);
+}
+
+#length
+{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
